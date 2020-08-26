@@ -1,0 +1,23 @@
+*{
+    background-color: #8B4513;
+    margin:20px;
+}
+.cabeçalho{
+    text-align:center;
+    
+    
+}
+.menu{
+    color:black;
+    
+}
+.compilacao{
+    text-align: center;
+
+}
+.referencias{
+    color:black;
+}
+p{
+   text-align:justify; 
+}
