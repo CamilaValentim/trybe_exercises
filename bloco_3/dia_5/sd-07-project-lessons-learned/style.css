@@ -1,0 +1,77 @@
+body{
+  background:rgb(253, 251, 251);
+}
+
+#cabecalho{
+  top: 0px;
+  position: fixed;
+  background-color: #CDAF95;
+  width: 100%;
+}
+
+#titulo{
+  text-align: center;
+}
+
+.menu{
+  color:#8B7765;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  color:#8B7765;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  bottom: 50%;
+}
+
+h2{
+  color: #8B7765;
+  margin-bottom:50px;
+}
+
+#minha_foto{
+  width: 90px;
+  margin-top: 200px;
+  border-radius: 25%;
+  position: absolute;
+  bottom:650px;
+  left:400px;
+  margin-bottom: 0px;
+}
+
+#tabela{
+  border:1px solid rgb(7, 6, 6);
+  margin: 20px;
+}
+
+#tabela td{
+  border:1px solid rgb(177, 148, 148);
+}
+
+#licoes_aprendidas{
+  bottom:100px;
+  border:1px solid #8B7765;
+  margin-top:50px;
+}
+
+.lado-esquerdo{
+  float: left;
+  width:50%;
+}
+
+#licoes_a_aprender{
+  border:1px solid #8B7765;
+}
+.tentando{
+  margin-top:200px;
+}
+
+
+
+
+
+
+
