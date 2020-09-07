@@ -68,12 +68,15 @@
     
     /*5 */
     let texto = document.getElementsByTagName("p");
-      for (let i = 0; i < texto.length; i += 1){
+      for (let i = 0;i < texto.length; i += 1){
         texto[i].innerText = texto[i].innerText.toUpperCase();
       }
 
     /*6 */
-    document.getElementsByTagName("p")
+    let conteudo = document.getElementsByTagName("p");
+      for(let i = 0;i < conteudo.length; i += 1){
+        console.log(conteudo[i].innerText);
+      }
 
 
     </script>
