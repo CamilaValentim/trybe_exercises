@@ -67,7 +67,10 @@
     document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScript";
     
     /*5 */
-    
+    let texto = document.getElementsByTagName("p");
+      for (let i = 0; i < texto.length; i += 1){
+        texto[i].innerText = texto[i].innerText.toUpperCase();
+      }
 
     /*6 */
     document.getElementsByTagName("p")
