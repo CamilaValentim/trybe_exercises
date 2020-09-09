@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Atividade 01
+      let novaTag = document.createElement("h1");
+      novaTag.innerText = "Exercicio 5.2 - JavaScript DOM";
+      document.body.appendChild(novaTag);
+    
+      // Atividade 02
+      let tagDiv = document.createElement("div");
+      tagDiv.className = "main-content";
+      document.body.appendChild(tagDiv);
+
+      // Atividade 03
+      let divCenter = document.createElement('div');
+      divCenter.className = 'center-content';
+      tagDiv.appendChild(divCenter);
+
+      //Atividade 04
+      let paragrafo = document.createElement("p");
+      paragrafo.innerText = "GitHub";
+      divCenter.appendChild(paragrafo);
+
+      // Atividade 05
+      let divLeft = document.createElement("div");
+      divLeft.className = 'left-content';
+      tagDiv.appendChild(divLeft);
+
+      //Atividade 06
+      let divRight = document.createElement("div");
+      divRight.className = 'right-content';
+      tagDiv.appendChild(divRight);
+
+      //Atividade 07
+      let imgSmall = document.createElement('img');
+      imgSmall.src = 'https://picsum.photos/200';
+      imgSmall.className = 'small-image';
+      divLeft.appendChild(imgSmall);
+
+      //Atividade 08
+      let listNaoOrdenada = document.createElement("ul");
+      let itemList;
+      for (let index = 1; index <= 10; index += 1) {
+        itemList = document.createElement("li");
+        itemList.innerText = index;
+        listNaoOrdenada.appendChild(itemList);
+      }
+      divRight.appendChild(listNaoOrdenada);
+      // Atividade 09
+      let tags;
+      for (let i = 1; i <= 3; i += 1) {
+        tags = document.createElement("h3");
+        tagDiv.appendChild(tags);
+      }
+      //Atividade 10
+      createTitle.className = "title";
+
+      //Atividade 11
+      tags = document.getElementsByTagName("h3");
+      for (let item of tags) {
+        item.className = "description";
+      }
+      //Atividade 12
+      tagDiv.removeChild(divLeft);
+
+      //Atividade 13
+      divRight.style.marginRight = "auto";
+
+      //Atividade 14
+      divCenter.parentNode.style.backgroundColor = "green";
+    </script>
+  </body>
+</html>
