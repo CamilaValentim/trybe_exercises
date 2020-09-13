@@ -1,0 +1,13 @@
+header {
+    background-color: rgb(212, 184, 172);
+    border: 1px solid black;
+}
+
+article {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    
+     
+}
