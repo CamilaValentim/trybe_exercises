@@ -1,8 +1,20 @@
+let article = document.getElementById('article');
+
+window.onload = function() {
+    article.style.backgroundColor = localStorage.getItem('background-color');
+    article.style.color = localStorage.getItem('font-color');
+    article.style.fontSize = localStorage.getItem('font-size');
+    article.style.lineHeight = localStorage.getItem('line-height');
+    article.style.fontFamily = localStorage.getItem('font-family');
+}
+
+
 let selectBackgroundArticle = document.getElementById('background-color');
 let colorArticle = document.getElementById('color-font');
 let tamanhoDaFonte = document.getElementById('tamanho-da-fonte');
 let espacoEntreLinhas = document.getElementById('espaco-entre-linhas');
 let tipoFonte = document.getElementById('tipos-de-fontes');
+
 
 
 function getSelectText(select) {
@@ -11,6 +23,7 @@ function getSelectText(select) {
 }
 
 function getRgbColor(color) {
+    if(color === 'preto') return 'rgb(0,0,0)';
     if (color === 'branco') return 'rgb(255,255,255)';
     if (color === 'verde') return 'rgb(81, 208, 146)';
     if (color === 'azul') return 'rgb(0, 159, 198)';
@@ -19,38 +32,33 @@ function getRgbColor(color) {
 selectBackgroundArticle.addEventListener('click', function() {
     let textSelect = getSelectText(selectBackgroundArticle);
     let rgbColor = getRgbColor(textSelect);
-    let article = document.getElementById('article');
     article.style.backgroundColor = rgbColor;
-    localStorage.setItem('cor-fundo',rgbColor);
+    localStorage['background-color'] = rgbColor;
 });
 
 colorArticle.addEventListener('click', function() {
     let textSelect = getSelectText(colorArticle);
     let rgbColor = getRgbColor(textSelect);
-    let article = document.getElementById('article');
     article.style.color = rgbColor;
-    localStorage.setItem('cor-text',rgbColor);
+    localStorage['font-color'] = rgbColor;
 });
 
 tamanhoDaFonte.addEventListener('click', function() {
     let textSelect = getSelectText(tamanhoDaFonte);
-    let article = document.getElementById('article');
     article.style.fontSize = `${parseInt(textSelect)}px`;
-    localStorage.setItem('tamanho-da-fonte',textSelect);
+    localStorage['font-size'] = textSelect;
 });
 
 espacoEntreLinhas.addEventListener('click', function() {
     let textSelect = getSelectText(espacoEntreLinhas);
-    let article = document.getElementById('article');
     article.style.lineHeight = `${parseInt(textSelect)}px`;
-    localStorage.setItem('cor-text',textSelect);
+    localStorage['line-height'] = textSelect;
 });
 
 tipoFonte.addEventListener('click', function() {
     let textSelect = getSelectText(tipoFonte);
-    let article = document.getElementById('article');
     article.style.fontFamily = textSelect;
-    localStorage.setItem('cor-text',textSelect);
+    localStorage['font-family'] = textSelect;
 });
 
 
