@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Curriculo</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    
+</head>
+<body>
+    <section class="section">
+        <header>
+            <h1 class="title">Cadastro de Curriculo</h1>
+    
+        </header>
+    </section>
+    <hr>
+
+    <section class="section">
+        <form action="" method="get">
+         
+
+            <div class="field">
+                <legend class="subtitle">Dados Pessoais</legend>
+                <label class="label" for="nome">Nome:</label>
+                <div class="control">
+                    <input type="text" name="nome"  maxlength="40"  id="nome"  placeholder="Digite seu nome" required="required">
+                    <label class="label" for="email-pessoal">Email:</label>
+                  
+                    <input type="text" name="email"  maxlength="50"  id="email-pessoal"  placeholder="Digite seu e-mail"  required="required">
+                    
+                    <label class="label" for="cpf">CPF:</label>
+                  
+                    <input type="text" name="cpf"  maxlength="11"  id="cpf" placeholder="Digite seu CPF" required="required">
+                    
+                    <label class="label" for="endereco">Endereço:</label>
+                    
+                    <input type="text" name="endereco"  maxlength="200"  id="endereco"  placeholder="Digite seu endereço"  required="required">
+                    
+                    <label class="label" for="cidade">Cidade:</label>
+                    
+                    <input type="text" name="cidade"  maxlength="28"  id="cidade"  placeholder="Digite sua cidade"  required="required">
+                    
+                </div>
+            </div>
+
+            
+         
+
+            <div class="field">
+                <label class="label" for="estados">Selecione o Estado:</label>
+                <div class="control">
+                    <div class="select">
+                        <select name="estados" id="estados"  required="required">    
+                        </select>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="field">
+                <label class="label" for="">Complemento</label>
+                <div class="control">
+                    <label for="casa" class="radio">Casa
+                        <input type="radio" name="talk-tipe" id="casa" class="radio" required="required">
+                    </label>
+                    <label for="apartamento" class="radio">Apartamento
+                        <input type="radio" name="talk-tipe" id="apartamento" class="radio" required="required">
+                    </label>
+                </div>
+            </div>
+            
+
+            <div class="field">
+                <legend class="subtitle">Dados profissionais</legend>
+                <label for="curriculo" class="label">Resumo do curriculo:</label>
+                <div class="control">
+                    <textarea class="textarea" name="curriculo" id="curriculo"  cols="30" rows="10" required="required" maxlength="1000" placeholder="Digite aqui"></textarea>
+                </div>
+            </div>
+
+
+            <div class="field">
+                <label class="label" for="cargo">Cargo:</label>
+               
+                <div class="control">
+                    <input type="text" id="cargo"  placeholder="Digite seu ultimo cargo" maxlength="40" required="required" >
+
+                    <label class="label" for="DescricaoCargo">Descrição do Cargo:</label>
+                    <input type="text" required maxlength="500" id="DescricaoCargo" placeholder="Descriçao do cargo" required="required">
+
+                    <label class="label" for="data-inicio">Data de inicio:</label>
+                    
+                    <input type="text" name="dataInicio" id="data-inicio"  maxlength="8" placeholder="dd/mm/aa" required="required">
+                  
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary" type="submit">Enviar</button> 
+                </div>
+            </div>
+        
+        
+        </form>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
