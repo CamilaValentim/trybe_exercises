@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(148, 120, 42) ;
+    
+}
+.cadastro{
+    text-align: center;
+    background-color:rgb(90, 75, 34);
+    padding: 30px;
+    color: white;
+}
+.dados-pessoais{
+    padding: 20px;
+    background-color: rgb(90, 75, 34);
+    color:white;
+    border: white;
+    margin:50px;
+    
+}
+fieldset{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.dadosPessoais{
+    width: 100%;
+}
+.resumoCurriculo{
+    background-color: rgb(90, 75, 34);
+    color: white;
+    margin:50px;
+    padding: 20px;
+    border: white;
+    
+
+}
+
+#curriculo{
+    width: 100%;
+    
+}
+.cargo {
+    width: 100%;
+}
+.descricaoCargo{
+    width: 100%;
+}
+
+
+
