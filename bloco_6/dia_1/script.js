@@ -1,5 +1,8 @@
 let select = document.querySelector('#estados');
-console.log(select);
+let submit = document.querySelector('#button');
+submit.addEventListener('click', function(event){
+    event.preventDefault();
+})
 
 let estados = ['Selecione o seu Estado','Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 
 'Distrito Federal', 'Espirito Santo' , 'Goiás', 'Maranhão', 'Mato Grosso do Sul', 'Mato Grosso',

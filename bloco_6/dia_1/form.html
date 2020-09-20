@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro Curriculo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,11 +53,19 @@
 
             <label for="cargo">Cargo:</label>
             <br>
-            <input type="text" id="cargo" class="cargo" maxlength="40" >
+            <input type="text" id="cargo" class="cargo" placeholder="Digite seu ultimo cargo" maxlength="40" >
 
             <label for="DescricaoCargo">Descrição do Cargo:</label>
-            <input type="text" required maxlength="500" id="DescricaoCargo" class="descricaoCargo">
+            <input type="text" required maxlength="500" id="DescricaoCargo" placeholder="Descriçao do cargo" class="descricaoCargo">
+
+            <label for="data-inicio">Data de inicio:</label>
+            <br>
+            <input type="text" name="dataInicio" id="data-inicio" required>
+            <br>
+            <input type="submit" id="button" class="button" value="enviar">
         </fieldset>
+
+        
 
         
     </form>
