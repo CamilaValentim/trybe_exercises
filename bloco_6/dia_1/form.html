@@ -60,9 +60,11 @@
 
             <label for="data-inicio">Data de inicio:</label>
             <br>
-            <input type="text" name="dataInicio" id="data-inicio" required>
+            <input type="text" name="dataInicio" id="data-inicio" min="01-01-1000" max="31-12-3000"  required>
             <br>
             <input type="submit" id="button" class="button" value="enviar">
+            <br>
+            <input type="reset" value="Limpar">
         </fieldset>
 
         
