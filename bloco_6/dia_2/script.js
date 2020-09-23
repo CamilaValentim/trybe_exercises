@@ -1,5 +1,5 @@
 let selectEstados = document.getElementById("estados");
-
+let date = document.getElementById("data-inicio");
 
 
 let states= ['Selecione','Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 
@@ -18,4 +18,11 @@ for(let i = 0;i < states.length; i +=1) {
 let submit = document.querySelector('#button');
 submit.addEventListener('click', function(event){
     event.preventDefault();
+    console.log(date.value);
 })
+
+date.DatePickerX.init({
+    mondayFirst: true ,
+    format: "dd/mm/yyyy"
+});
+
