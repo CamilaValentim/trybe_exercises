@@ -1,5 +1,6 @@
 let select = document.querySelector('#estados');
 let submit = document.querySelector('#button');
+let date = document.querySelector('#data-inicio');
 submit.addEventListener('click', function(event){
     event.preventDefault();
 })
