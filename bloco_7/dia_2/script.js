@@ -27,3 +27,13 @@ const addKeyValue = (obj, key, value) => {
 };
 addKeyValue(lesson2, 'turno', 'Manhã')
 console.log(lesson2);
+
+//2.Crie uma função para listar as keys de um objeto. Essa função deve receber um objeto como parâmetro.
+
+const myKeys = (obj) => {
+    const arrayMyKeys = Object.keys(obj);
+    for(i in arrayMyKeys){
+        console.log(`${obj[arrayMyKeys[i]]}`);
+    }
+}
+myKeys(lesson2)
