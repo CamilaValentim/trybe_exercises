@@ -68,3 +68,22 @@ const numberStudents = (obj) => {
     return total;
   };
   console.log(numberStudents(clone));
+
+//7.Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto.
+
+const position = (obj, number) => Object.values(obj)[number];
+console.log(position(lesson1, 0));
+
+/*8.Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir 
+três parâmetros, sendo eles: 
+o objeto, o nome da chave e o valor da chave*/
+
+const verifyPair = (obj, key, value) => {
+    const arr = Object.entries(obj);
+    let isEqual = false;
+    for (let i in arr) {
+      if (arr[i][0] === key && arr[i][1] === value) isEqual = true;
+    }
+    return isEqual;
+  };
+  console.log(verifyPair(lesson2,'professor','Carlos'));
