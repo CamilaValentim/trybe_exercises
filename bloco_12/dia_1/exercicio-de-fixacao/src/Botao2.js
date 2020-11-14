@@ -1,14 +1,19 @@
 import React from 'react';
 import Botao1 from './Botao1';
 
-function eventButton2() {
-    console.log('click botao 2');
-}
-
 class Botao2 extends React.Component {
+    constructor(){
+        super()
+        this.eventButton2 = this.eventButton2.bind(this);
+        
+    }
+    eventButton2() {
+        console.log(this);
+        console.log('click botao 2');
+    }
     render() {
         return (
-            <button className='Botao2' onClick={eventButton2}>Botao2</button>
+            <button className='Botao2' onClick={this.eventButton2}>Botao2</button>
         ) 
     }
 }
