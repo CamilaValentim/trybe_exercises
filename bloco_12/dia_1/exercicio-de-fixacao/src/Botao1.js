@@ -5,14 +5,19 @@ class Botao1 extends React.Component {
     constructor() {
         super()
         this.eventBotton = this.eventBotton.bind(this);
+        this.state = {
+            numeroDeClicks : 0
+        }
     }
 
     eventBotton() {
-        console.log(this);
-        console.log("click");
+        this.setState((estadoAnterior, _props) => ({
+            numeroDeClicks: estadoAnterior.numeroDeClicks + 1
+        }))
     
     }
     render() {
+        console.log(this)
         return (
             <button className='Botao1' onClick={this.eventBotton}>Botao1</button>
         )
