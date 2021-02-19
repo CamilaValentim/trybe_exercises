@@ -151,91 +151,92 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [:hourglass_flowing_sand:] 20-4: _Manipulando tabelas_
 - [:hourglass_flowing_sand:] 20-5: _[Projeto - All For One]_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Funções SQL, Joins e Subqueries
 
-- [x] 21-1: _Funções mais usadas no SQL_
-- [x] 21-2: _Descomplicando JOINs e UNIONs_
-- [x] 21-3: _Stored Routines & Subqueries_
-- [x] 21-4: _[Projeto - Vocabulary Booster]_
+- [:hourglass_flowing_sand:] 21-1: _Funções mais usadas no SQL_
+- [:hourglass_flowing_sand:] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
+- [:hourglass_flowing_sand:] 21-3: _Stored Routines & Stored Functions_
+- [:hourglass_flowing_sand:] 21-4: _[Projeto - Vocabulary Booster]_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
-- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [x] 22-2: _Normalização, Formas Normais e Dumps_
-- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [x] 22-3: _[Projeto - One For All]_
+- [:hourglass_flowing_sand:] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [:hourglass_flowing_sand:] 22-2: _Normalização, Formas Normais e Dumps_
+- [:hourglass_flowing_sand:] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [:hourglass_flowing_sand:] 22-3: _[Projeto - One For All]_
 
-##### Bloco 23: Introdução - NoSQL
+##### Bloco 23: Introdução ao MongoDB
 
-- [x] 23-1: _MongoDB - Introdução_
-- [x] 23-2: _Filter Operators_
-- [x] 23-3: _[Projeto - Data Flights]_
+- [:hourglass_flowing_sand:] 23-1: _NoSQL - Introdução_
+- [:hourglass_flowing_sand:] 23-1: _MongoDB - Introdução_
+- [:hourglass_flowing_sand:] 23-2: _Filter Operators_
+- [:hourglass_flowing_sand:] 23-3: _[Projeto - Data Flights]_
 
-##### Bloco 24: Updates
+##### Bloco 24: MongoDB: Upddates Simples e Complexos
 
-- [x] 24-1: _Updates Simples_
-- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [x] 24-4: _[Projeto - Commerce]_
+- [:hourglass_flowing_sand:] 24-1: _Updates Simples_
+- [:hourglass_flowing_sand:] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [:hourglass_flowing_sand:] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [:hourglass_flowing_sand:] 24-4: _[Projeto - Commerce]_
 
-##### Bloco 25: Aggregation Framework
+##### Bloco 25: MongoDB: Aggregation Framework
 
-- [x] 25-1: _Aggregation Framework - Part 1_
-- [x] 25-2: _Aggregation Framework - Part 2_
-- [x] 25-3: _[Projeto - Aggregations]_
+- [:hourglass_flowing_sand:] 25-1: _Aggregation Framework - Part 1_
+- [:hourglass_flowing_sand:] 25-2: _Aggregation Framework - Part 2_
+- [:hourglass_flowing_sand:] 25-3: _[Projeto - Aggregations]_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS
 
-- [x] 26-1: _NodeJS - Introdução_
-- [x] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]_
+- [:hourglass_flowing_sand:] 26-1: _NodeJS - Introdução_
+- [:hourglass_flowing_sand:] 26-2: _NodeJS - Fluxo Assíncrono_
+- [:hourglass_flowing_sand:] 26-3: _NodeJS - Arquitetura_
+- [:hourglass_flowing_sand:] 26-4:_Express: HTTP com Node.js_
+- [:hourglass_flowing_sand:] 26-5:_ Práticando Express
+- [:hourglass_flowing_sand:] 26-4: _[Projeto -Crush Manager]_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]_
+- [:hourglass_flowing_sand:] 27-1: _Introdução - Arquitetura de Software_
+- [:hourglass_flowing_sand:] 27-1: _Arquitetura de Software - Camada de Model_
+- [:hourglass_flowing_sand:] 27-2: _Arquitetura de Software - Camada de Controller e Service
+- [:hourglass_flowing_sand:] 27-3:_ Arquitetura Web - Rest e Restful
+- [:hourglass_flowing_sand:] 27-3: _[Projeto - Store Manager]_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [:hourglass_flowing_sand:] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [:hourglass_flowing_sand:] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [:hourglass_flowing_sand:] 28-3: _[Projeto - Cookmaster]_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: Deployment
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]_
+- [:hourglass_flowing_sand:] 29-1: _Infraestrutura - Deploy com Heroku_
+- [:hourglass_flowing_sand:] 29-2: _Deploy - Gerenciadores de Processos_
+- [:hourglass_flowing_sand:] 29-3: _[Projeto - Stranger Things]_
 
-##### Bloco 30: Introdução - Deploy
+##### Bloco 30: Projeto Trybeer
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]_
+- [:hourglass_flowing_sand:] 31-1: _[Projeto - Trybeer]_
 
-##### Bloco 31: Projeto
+##### Bloco 31: Arquitetura: SOLID E ORM
 
-- [ ] 31-1: _[Projeto - Trybeer]_
+- [:hourglass_flowing_sand:] 31-1: _Arquitetura - Princípios SOLID_
+- [:hourglass_flowing_sand:] 31-2: _ORM - Interface da aplicação com o banco de dados_
+- [:hourglass_flowing_sand:] 31-3: _ORM- Associations
+- [:hourglass_flowing_sand:] 31-4: _Boas práticas na escrita de testes_
+- [:hourglass_flowing_sand:] 31-3: _[Projeto - API de Blogs]_
 
-##### Bloco 32: Arquitetura de Software
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]_
+##### Bloco 32: Sockets
+- [:hourglass_flowing_sand:] 32-1: _Arquitetura de SOftware - Camada de View
+- [:hourglass_flowing_sand:] 32-1: _Sockets - TCP/UDP & NET_
+- [:hourglass_flowing_sand:] 32-2: _Sockets - Socket.io_
+- [:hourglass_flowing_sand:] 32-3: _[Projeto - Webchat]_
 
-##### Bloco 33: Sockets
+##### Bloco 33:  Projeto
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]_
+- [:hourglass_flowing_sand:] 33-1: _[Projeto - Trybeer V2]_
 
-##### Bloco 34: Projeto
-
-- [ ] 34-1: _[Projeto - Trybeer V2]_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
