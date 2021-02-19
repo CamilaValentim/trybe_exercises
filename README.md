@@ -143,9 +143,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 20: Introdução à SQL
 
-- [:heavy_check_mark:] 20-1: _Banco de dados SQL_
+- [:heavy_check_mark:] 20-1: _Banco de dados relacionais_
 - [:heavy_check_mark:] 20-2: _Encontrando dados em um banco de dados_
 - [:heavy_check_mark:] 20-3: _Filtrando dados de forma específica_
 - [:hourglass_flowing_sand:] 20-4: _Manipulando tabelas_
