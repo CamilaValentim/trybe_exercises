@@ -128,7 +128,7 @@ x
 
 ##### Bloco 17: Projeto Jogo de Trivia 
 
-- [:heavy_check_mark:] 17-1: _[Projeto - Jogo de Trivia]_
+- [x] 17-1: _[Projeto - Jogo de Trivia]_
 
 ##### Bloco 18: Context API e React Hooks 
 
