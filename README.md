@@ -240,21 +240,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: Introdução - Ciência da Computação
+##### Bloco 34: Introdução - Arquitetura de Computadores e Redes
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-4: _[Projeto - Explorando os protocolos]_
+- [:hourglass_flowing_sand:] 35-1: _Arquitetura de Computadores_
+- [:hourglass_flowing_sand:] 34-2: _Arquitetura de redes_
+- [:hourglass_flowing_sand:] 34-3: _Redes de computadores, ferramentas e segurança_
+- [:hourglass_flowing_sand:] 34-4: _[Projeto - Explorando os protocolos]_
 
-##### Bloco 36: Python
+##### Bloco 35: Introdução à Python e Raspagem de Dados da Web
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saída de dados_
-- [ ] 35-5: _[Projeto - Tech news]_
+- [:hourglass_flowing_sand:] 35-1: _Aprendendo Python_
+- [:hourglass_flowing_sand:] 35-2: _Testes e Exceções_
+- [:hourglass_flowing_sand:] 35-3: _Entrada e Saída de dados_
+- [:hourglass_flowing_sand:] 36-4: _Entrada e Saída de dados_
+- [:hourglass_flowing_sand:] 35-5: _[Projeto - Tech news]_
 
+##### Bloco 35: Introdução à Python e Raspagem de Dados da Web
 ## Bônus
 
 ##### Animações com CSS
