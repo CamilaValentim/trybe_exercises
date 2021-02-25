@@ -148,13 +148,13 @@ x
 - [x] 20-1: _Banco de dados relacionais_
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]_
 
 ##### Bloco 21: Funções SQL, Joins e Subqueries
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
 - [ ] 21-3: _Stored Routines & Stored Functions_
 - [ ] 21-4: _[Projeto - Vocabulary Booster]_
 
