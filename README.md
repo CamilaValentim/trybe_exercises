@@ -155,58 +155,58 @@ x
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
-- [ ] 21-3: _Stored Routines & Stored Functions_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]_
+- [x] 21-3: _Stored Routines & Stored Functions_
+- [x] 21-4: _[Projeto - Vocabulary Booster]_
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-3: _[Projeto - One For All]_
 
 ##### Bloco 23: Introdução ao MongoDB
 
-- [ ] 23-1: _NoSQL - Introdução_
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]_
+- [x] 23-1: _NoSQL - Introdução_
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _[Projeto - Data Flights]_
 
 ##### Bloco 24: MongoDB: Upddates Simples e Complexos
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]_ 
+- [x] 24-1: _Updates Simples_
+- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [x] 24-4: _[Projeto - Commerce]_ 
 
 ##### Bloco 25: MongoDB: Aggregation Framework
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]_
+- [x] 25-1: _Aggregation Framework - Part 1_
+- [x] 25-2: _Aggregation Framework - Part 2_
+- [x] 25-3: _[Projeto - Aggregations]_
 
 ##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4:_Express: HTTP com Node.js_
-- [ ] 26-5:_ Práticando Express
-- [ ] 26-4: _[Projeto -Crush Manager]_
+- [x] 26-1: _NodeJS - Introdução_
+- [x] 26-2: _NodeJS - Fluxo Assíncrono_
+- [x] 26-3: _NodeJS - Arquitetura_
+- [x] 26-4:_Express: HTTP com Node.js_
+- [x] 26-5:_ Práticando Express
+- [x] 26-4: _[Projeto -Crush Manager]_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Introdução - Arquitetura de Software_
-- [ ] 27-1: _Arquitetura de Software - Camada de Model_
-- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service
-- [ ] 27-3:_ Arquitetura Web - Rest e Restful 
-- [ ] 27-3: _[Projeto - Store Manager]_
+- [x] 27-1: _Introdução - Arquitetura de Software_
+- [x] 27-1: _Arquitetura de Software - Camada de Model_
+- [x] 27-2: _Arquitetura de Software - Camada de Controller e Service
+- [x] 27-3:_ Arquitetura Web - Rest e Restful 
+- [x] 27-3: _[Projeto - Store Manager]_
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _[Projeto - Cookmaster]_
+- [x] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [x] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [x] 28-3: _[Projeto - Cookmaster]_
 
 ##### Bloco 29: Deployment
 
